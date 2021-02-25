@@ -1,0 +1,272 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1.5;
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+h1,h2{
+    color: #39324B;
+    font-family: 'DM Serif Display', serif;
+}
+.header-nav{
+    text-align: left;
+    margin-top: 5px;
+    text-decoration: none;
+    color : #6F6B74;
+    padding: 20px;
+}
+.nav-tab{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Karla', sans-serif;
+    
+    font-weight: bolder;
+    font-size: large;
+}
+.view-plans{
+    width: auto;
+    height: auto;
+    padding: 10px 10px;
+    border: 1px solid #6F6B74;
+    border-radius: 5%;
+    padding: 15px 25px;
+    font-size: 15px;
+   
+}
+.humanising-insurance{
+    background-color:#2E2640 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 500px;
+    position: relative;
+   
+}
+.humanising-insurance-text-part{
+    color: white;
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+    text-align: left;
+    height: 80%;
+}
+#humanising-insurance-heading{
+    color: white;
+    font-size: 50px;
+}
+.humanising-your-insurance{
+    background-color: #2E2640;
+}
+#white-line{
+    color: white;
+    width: 150px;
+    margin-top: 80px;
+    margin-right: 480px;
+}
+
+.new{
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid white;
+    color: white;
+}
+#dad-w-child{
+    position: absolute;
+    left:690px;
+    top: 70px;
+}
+.about-the-insure{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+
+    align-items: center;
+}
+#dadw2kids{
+margin-top: 250px;
+
+}
+.about-the-insure-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    text-align: left;
+    margin-top: 300px;
+    font-family: 'Karla', sans-serif;
+}
+.we-are-different{
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.header-we-are-different{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    background-color:#8BB4F0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    justify-content: center;
+}
+
+.icon-link{
+    text-decoration: none;
+    width: 30%;
+    text-align: left;
+}
+
+.icon-para{
+    font-family: 'Karla', sans-serif;
+    color:#6F6B74 ;
+}
+
+.we-are-different-nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.find-out-more{
+    background-color: #2E2640;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.find-out-more-header{
+    margin-left: 40px;
+    color: white;
+    font-size: 50px;
+    padding: 40px;
+}
+.update{
+    margin-right: 40px;
+    font-family: 'Karla', sans-serif;
+}
+.pro-insure{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #6F6B74;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.nav-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+    background-color:#6F6B74 ;
+    color: white;
+    padding: 5px 8px;
+    margin: 20px;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upper-footer{
+    margin-top: 100px;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #6F6B74;
+    font-family: 'Karla', sans-serif;
+}
+
+.nav_a{
+    margin: 20px;
+    text-decoration: none;
+    color: #6F6B74;
+    font-size: 20px;
+}
+
+.lower-footer{
+    padding: 20px;
+    background-color: #2E2640;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Karla', sans-serif;
+}
